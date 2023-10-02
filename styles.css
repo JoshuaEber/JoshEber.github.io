@@ -4,3 +4,6 @@ html{
 head, h1, body, main{
 	color: aqua;
 }
+nav{
+	text-decoration: none;
+}
