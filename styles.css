@@ -14,7 +14,7 @@ nav{
 	nav ul{
 	list-style-type: none;
 	margin: 0;
-	text-align: center;
+	text-align: right;
 }
 nav li{
 	display: inline-block;
