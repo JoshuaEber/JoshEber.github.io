@@ -4,11 +4,30 @@ html{
 head, h1, body, main{
 	color: #38ab57;
 	font-family: monospace, Arial, sans serif;
+	font-style: oblique;
 }
 nav{
-	text-decoration: none;
-	color: #38ab57;
+	width: 70%;
+	float: right;
+	margin: 5em 3em 0 0;
+}
+	nav ul{
 	list-style-type: none;
+	margin: 0;
+	text-align: right;
+}
+nav li{
+	display: inline-block;
+	font-size:1.75em;
+	font-family: monospace, Arial, sans-serif;
+	font-weight: bold;
+}
+nav li a{
+	display: block;
+	color: #38ab57;
+	text-align: center;
+	padding: .5em 1em;
+	text-decoration: none;
 }
 img{
 	max-width: 100%;
