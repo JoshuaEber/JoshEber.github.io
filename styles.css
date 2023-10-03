@@ -6,6 +6,9 @@ head, h1, body, main{
 	font-family: monospace, Arial, sans serif;
 	font-style: oblique;
 }
+h1{
+	font-size: 60px;
+}
 nav{
 	width: 70%;
 	float: right;
