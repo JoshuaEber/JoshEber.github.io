@@ -14,7 +14,7 @@ nav{
 	float: right;
 	margin: 5em 3em 0 0;
 }
-	nav ul{
+nav ul{
 	list-style-type: none;
 	margin: 0;
 	text-align: right;
@@ -37,9 +37,20 @@ img{
 	display: block;
 	border: 8px solid #000;
 }
-.projectlist{
+#project ul{
+	list-style-type: none;
+	margin: 0;
+	text-align: right;
+}
+#prject li{
+	display: inline-block;
+	font-size:1.75em;
+	font-family: monospace, Arial, sans-serif;
+	font-weight: bold;
+}
+#project li a{
 	display: block;
-	color: #4395cc;
+	color: #38ab57;
 	text-align: center;
 	padding: .5em 1em;
 	text-decoration: none;
