@@ -44,3 +44,6 @@ img{
 	padding: .5em 1em;
 	text-decoration: none;
 }
+.map{
+	border: 12px solid #000;
+}
