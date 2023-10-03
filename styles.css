@@ -6,6 +6,19 @@ head, h1, h2, body, main{
 	font-family: monospace, Arial, sans serif;
 	font-style: oblique;
 }
+header{
+	padding: 25%;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	font-size: 30px;
+	text-align: center;
+	color:  #38ab57;
+	font-family: monospace, Arial, sand serif;
+	border: 2px ridge black;
+	border-width: 15px;
+	background-color: #262222;
+	border-radius: 5px;
+}
 h1{
 	font-size: 60px;
 }
