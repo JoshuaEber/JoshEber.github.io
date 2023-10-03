@@ -1,7 +1,7 @@
 html{
 	background-color: #262222;
 }
-head, h1, body, main{
+head, h1, h2, body, main{
 	color: #38ab57;
 	font-family: monospace, Arial, sans serif;
 	font-style: oblique;
