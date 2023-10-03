@@ -2,8 +2,16 @@ html{
 	background-color: #262222;
 }
 head, h1, body, main{
-	color: aqua;
+	color: #38ab57;
+	font-family: monospace, Arial, sans serif;
 }
 nav{
 	text-decoration: none;
+	color: #38ab57;
+	list-style-type: none;
 }
+img{
+	max-width: 100%;
+	display: block;
+}
+
