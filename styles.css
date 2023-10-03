@@ -23,6 +23,17 @@ h1{
 	font-size: 60px;
 }
 nav{
+	padding: 10%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 15px;
+	text-align: center;
+	color:  #38ab57;
+	font-family: monospace, Arial, sand serif;
+	border: 2px ridge black;
+	border-width: 10px;
+	background-color: #262222;
+	border-radius: 2px;
 	width: 70%;
 	float: right;
 	margin: 5em 3em 0 0;
