@@ -74,6 +74,14 @@ img{
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px black;
 }
+.img2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid #38ab57;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px black;
+}
 #project ul{
 	list-style-type: none;
 	margin: 0;
