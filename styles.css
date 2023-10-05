@@ -69,7 +69,7 @@ img{
 #project ul{
 	list-style-type: none;
 	margin: 0;
-	text-align: right;
+	text-align: left;
 }
 #project li{
 	display: inline-block;
@@ -80,7 +80,7 @@ img{
 #project li a{
 	display: block;
 	color: #38ab57;
-	text-align: center;
+	text-align: left;
 	padding: .5em 1em;
 	text-decoration: none;
 }
