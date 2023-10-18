@@ -112,13 +112,12 @@ img{
 	text-align: center;
 }
 @media screen and (min-width: 481px){
-	.tablet-desktop{
-		display: block;
-	}
 	.mobile{
 		display: none;
 	}
-}
+	.tablet-desktop{
+		display: block;
+	}
 @media screen and (max-width: 480px){
 	.tablet-desktop{
 		display: none;
