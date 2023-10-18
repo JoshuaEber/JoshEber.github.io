@@ -111,7 +111,7 @@ img{
 .intro{
 	text-align: center;
 }
-@media screen and (min-width: 630px){
+@media screen and (min-width: 481px){
 	.tablet-desktop{
 		display: block;
 	}
@@ -119,7 +119,7 @@ img{
 		display: none;
 	}
 }
-@media screen and (min-width: 320px){
+@media screen and (max-width: 480px){
 	.tablet-desktop{
 		display: none;
 	}
