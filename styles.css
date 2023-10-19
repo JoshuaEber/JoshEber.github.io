@@ -58,7 +58,7 @@ nav li a{
 	display: block;
 	color: #38ab57;
 	text-align: center;
-	padding: .5em 1em;
+	padding: .8px;
 	text-decoration: none;
 }
 nav li a:hover{
