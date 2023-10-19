@@ -7,7 +7,7 @@ head, h1, h2, body, main{
 	font-style: oblique;
 }
 header{
-	padding: 25%;
+	/*padding: 25%;*/
 	padding-top: 35px;
 	padding-bottom: 35px;
 	font-size: 30px;
@@ -23,7 +23,6 @@ h1{
 	font-size: 60px;
 }
 nav{
-	padding: 5%;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	font-size: 25px;
@@ -43,7 +42,7 @@ nav ul{
 	text-align: center;
 }
 nav li{
-	padding: 5%;
+	/*padding: 5%;*/
 	padding-top: 5px;
 	padding-bottom: 5px;
 	border: 2px ridge black;
@@ -58,7 +57,7 @@ nav li a{
 	display: block;
 	color: #38ab57;
 	text-align: center;
-	padding: .8px;
+	padding: 8px;
 	text-decoration: none;
 }
 nav li a:hover{
