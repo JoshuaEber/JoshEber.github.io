@@ -37,16 +37,18 @@ nav{
 	margin: 5em 3em 0 0;
 }
 nav ul{
+	
 	list-style-type: none;
 	margin: 0;
 	text-align: center;
 }
 nav li{
+	text-align: center;
 	/*padding: 5%;*/
 	padding-top: 5px;
 	padding-bottom: 5px;
 	border: 2px ridge black;
-	border-width: 50px;
+	border-width: 10px;
 	background-color: #262222;
 	display: inline-block;
 	font-size:1.75em;
