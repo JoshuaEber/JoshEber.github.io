@@ -43,8 +43,6 @@ nav ul{
 	text-align: center;
 }
 nav li{
-	text-align: center;
-	/*padding: 5%;*/
 	padding-top: 5px;
 	padding-bottom: 5px;
 	border: 2px ridge black;
@@ -58,7 +56,6 @@ nav li{
 nav li a{
 	display: block;
 	color: #38ab57;
-	text-align: center;
 	padding: 8px;
 	text-decoration: none;
 }
