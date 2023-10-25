@@ -223,12 +223,6 @@ img{
 }
 /*desktop format*/
 @media screen and (min-width: 1015px), print{
-.tablet-desktop{
-	display: block;
-}
-.mobile{
-	display: none;
-}
 	head, h1, h2, body, main{
 	color: #38ab57;
 	font-family: monospace, Arial, sans serif;
