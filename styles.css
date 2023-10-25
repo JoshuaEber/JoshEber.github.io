@@ -112,11 +112,11 @@ img{
 }
 
 @media screen and(min-width: 630px), print {
-.mobile{
-	display: none;
-}
 .tablet-desktop{
 	display: block;
+}
+.mobile{
+	display: none;
 }
 head, h1, h2, body, main{
 	color: #38ab57;
@@ -223,11 +223,11 @@ img{
 }
 /*desktop format*/
 @media screen and (min-width: 1015px), print{
-.mobile{
-	display: none;
-}
 .tablet-desktop{
 	display: block;
+}
+.mobile{
+	display: none;
 }
 	head, h1, h2, body, main{
 	color: #38ab57;
