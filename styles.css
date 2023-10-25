@@ -104,11 +104,20 @@ img{
 .intro{
 	text-align: center;
 }
-.mobileimg{
+.mobile{
+	display: block;
+}
+.tablet-desktop{
 	display: none;
 }
 
 @media screen and(min-width: 630px), print {
+.mobile{
+	display: none;
+}
+.tablet-desktop{
+	display: block;
+}
 head, h1, h2, body, main{
 	color: #38ab57;
 	font-family: monospace, Arial, sans serif;
@@ -214,6 +223,12 @@ img{
 }
 /*desktop format*/
 @media screen and (min-width: 1015px), print{
+.mobile{
+	display: none;
+}
+.tablet-desktop{
+	display: block;
+}
 	head, h1, h2, body, main{
 	color: #38ab57;
 	font-family: monospace, Arial, sans serif;
