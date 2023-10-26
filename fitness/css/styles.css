@@ -4,7 +4,7 @@ Date: September 21, 2023
 */
 
 /*css reset*/
-body, header, nav, main, footer, h1, div, img, ul{
+body, header, nav, main, footer, h1, div, img, ul, figcaption, article{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -17,10 +17,12 @@ body{
 		max-width: 100%;
 		display: block;
 }
+/*style rule for box sizing applies to all elements*/
+*{
+	box-sizing: border-box;
+}
 /* mobile devices formatting*/
 header{
-	position: -webkit-sticky;
-	position: sticky;
 	top: 0;
 	background-color: #000;
 	height: 190px;
@@ -38,6 +40,27 @@ main{
 	font-size: 1.5em;
 	font-family: 'Roboto Slab', serif;
 }
+.mobile h3{
+	text-shadow: 5px 5px 0px #ccc;
+
+}
+article{
+	padding: 2%;
+	
+}
+article h3{
+	text-align: center;
+}
+article img{
+	margin: 0 auto;
+}
+article ul{
+	margin-left: 10%;
+}
+article:nth-of-type(2){
+	background-color: rgb(204, 204, 204, .3);
+}
+
 .tel-link{
 	background-color: #404040;
 	padding: 2%;
@@ -58,6 +81,23 @@ main{
 .action{
 	font-size: 1.35em;
 	color: #660;
+	font-weight: bold;
+}
+.frame{
+	position: relative;
+	max-width: 450px;
+	margin: 2% auto;
+}
+.pic-text{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .5);
+	color: #fff;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.5em;
 	font-weight: bold;
 }
 .external-link{
@@ -121,7 +161,6 @@ nav li a{
 		display: none;
 	}
 	header{
-		position: static;
 		padding-bottom: 2%;
 	}
 	nav li{
@@ -139,6 +178,30 @@ nav li a{
 	/*tablet viewport: main*/
 	main ul{
 		margin: 0 0 4% 10%;
+	}
+
+	.grid{
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 20px;
+	}
+	.pic-text{
+		font-size: 1em;
+		padding: 10px;
+	}
+	aside{
+		text-align: center;
+		font-size: 1.25em;
+		font-style: italic;
+		font-weight: bold;
+		padding: 2%;
+		background-color: rgba(204, 204, 204, .5);
+		box-shadow: 5px 5px 8px #000;
+		text-shadow: 5px 5px 5px #b3b3b3;
+		border-radius: 0 15px;
+	}
+	.grid-item4{
+		grid-column: 1 / span 3;
 	}
 	#exercises{
 		clear: left;
@@ -195,6 +258,20 @@ nav li a{
 	}
 	main h1{
 		font-size: 1.8em;
+	}
+	article h3{
+		font-size: 1.75em;
+	}
+	.pic-text{
+		font-size: 1.5em;
+		padding: 20px;
+	}
+	.frame{
+		opacity: .9;
+	}
+	.frame:hover{
+		opacity: 1;
+		box-shadow: 8px 8px 10px #808080;
 	}
 	#weights, #cardio, #training{
 		width: 29%;
