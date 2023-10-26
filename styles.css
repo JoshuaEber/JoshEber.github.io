@@ -63,8 +63,8 @@ img{
 	border: 4px solid #000;
 }
 .img1{
-	width: 150px;
-	height: 150px;
+	width: 250px;
+	height: 225px;
 }
 
 .img2{
@@ -118,13 +118,12 @@ img{
 .mobile{
 	display: none;
 }
-head, h1, h2, body, main{
+/*head, h1, h2, body, main{
 	color: #38ab57;
 	font-family: monospace, Arial, sans serif;
 	font-style: oblique;
-}
+}*/
 header{
-	/*padding: 25%;*/
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-size: 30px;
@@ -139,7 +138,7 @@ header{
 h1{
 	font-size: 20px;
 }
-nav{
+/*nav{
 	
 	text-align: center;
 	color:  #38ab57;
@@ -151,7 +150,7 @@ nav ul{
 	list-style-type: none;
 	margin: 0;
 	text-align: center;
-}
+}*/
 nav li{
 	padding-top: 8px;
 	padding-bottom: 8px;
@@ -163,7 +162,7 @@ nav li{
 	font-family: monospace, Arial, sans-serif;
 	font-weight: bold;
 }
-nav li a{
+/*nav li a{
 	display: block;
 	color: #38ab57;
 	padding: 10px;
@@ -177,10 +176,10 @@ img{
 	display: block;
 	border: 4px solid #000;
 	
-}
+}*/
 .img1{
-	width: 200px;
-	height: 200px;
+	width: 350px;
+	height: 300px;
 }
 
 .img2{
@@ -190,7 +189,7 @@ img{
 	border: 4px solid #38ab57;
 	border-radius: 5px;
 	box-shadow: 5px 5px 10px black;
-}
+}/*
 #project ul{
 	list-style-type: none;
 	margin: 0;
@@ -219,15 +218,15 @@ img{
 }
 .intro{
 	text-align: center;
-}
+}*/
 }
 /*desktop format*/
 @media screen and (min-width: 1015px), print{
-	head, h1, h2, body, main{
+	/*head, h1, h2, body, main{
 	color: #38ab57;
 	font-family: monospace, Arial, sans serif;
 	font-style: oblique;
-	}
+	}*/
 	
 	header{
 	padding-top: 35px;
@@ -244,19 +243,19 @@ img{
 	h1{
 	font-size: 60px;
 }
-nav{
+/*nav{
 	
 	text-align: center;
 	color:  #38ab57;
 	font-family: monospace, Arial, sand serif;
 	
-}
-nav ul{
+}*/
+/*nav ul{
 	
 	list-style-type: none;
 	margin: 0;
 	text-align: center;
-}
+}*/
 nav li{
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -268,24 +267,24 @@ nav li{
 	font-family: monospace, Arial, sans-serif;
 	font-weight: bold;
 }
-nav li a{
+/*nav li a{
 	display: block;
 	color: #38ab57;
 	padding: 8px;
 	text-decoration: none;
-}
-nav li a:hover{
+}*/
+/*nav li a:hover{
 	color: #fff;
-}
-img{
+}*/
+/*img{
 	max-width: 100%;
 	display: block;
 	border: 8px solid #000;
-}
-	img1{
+}*/
+img1{
 		width: 600px;
 		height: 550px;
-	}
+}
 
 .img2{
 	display: block;
@@ -295,7 +294,7 @@ img{
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px black;
 }
-#project ul{
+/*#project ul{
 	list-style-type: none;
 	margin: 0;
 	text-align: left;
@@ -323,5 +322,5 @@ img{
 }
 .intro{
 	text-align: center;
-}
+}*/
 }
