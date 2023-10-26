@@ -57,14 +57,17 @@ nav li a{
 nav li a:hover{
 	color: #fff;
 }
-img{
+/*img{
 	max-width: 100%;
 	display: block;
 	border: 4px solid #000;
-}
+}*/
 .img1{
 	width: 250px;
 	height: 225px;
+	display: block;
+	border: 4px solid #000;
+	text-align: center;
 }
 
 .img2{
