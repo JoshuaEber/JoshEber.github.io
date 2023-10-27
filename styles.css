@@ -110,19 +110,7 @@ img{
 }
 
 @media screen and(min-width: 630px), print {
-}
-/*header{
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-size: 35px;
-	text-align: center;
-	color:  #38ab57;
-	font-family: monospace, Arial, sand serif;
-	border: 2px ridge black;
-	border-width: 12px;
-	background-color: #262222;
-	border-radius: 5px;
-}*/
+
 h1{
 	font-size:	30px;
 }
@@ -131,18 +119,6 @@ h1{
 }
 /*desktop format*/
 @media screen and (min-width: 1015px), print{
-	/*header{
-	padding-top: 35px;
-	padding-bottom: 35px;
-	font-size: 30px;
-	text-align: center;
-	color:  #38ab57;
-	font-family: monospace, Arial, sand serif;
-	border: 2px ridge black;
-	border-width: 15px;
-	background-color: #262222;
-	border-radius: 5px;
-	}*/
 	h1{
 		font-size: 60px
 	}
