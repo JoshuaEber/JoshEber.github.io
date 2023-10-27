@@ -47,7 +47,7 @@ nav li{
 	font-family: monospace, Arial, sans-serif;
 	font-weight: bold;
 	box-shadow: 4px 4px 4px #000;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 nav li a{
 	display: block;
