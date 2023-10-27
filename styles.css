@@ -46,6 +46,7 @@ nav li{
 	font-size:1.25em;
 	font-family: monospace, Arial, sans-serif;
 	font-weight: bold;
+	box-shadow: 4px 4px 4px #000;
 }
 nav li a{
 	display: block;
@@ -55,6 +56,10 @@ nav li a{
 }
 nav li a:hover{
 	color: #fff;
+}
+img{
+	max-width: 100%;
+	height: auto;
 }
 .img1{
 	display: block;
@@ -101,12 +106,6 @@ nav li a:hover{
 }
 .intro{
 	text-align: center;
-}
-.mobile{
-	display: block;
-}
-.tablet-desktop{
-	display: none;
 }
 
 @media screen and(min-width: 630px), print {
