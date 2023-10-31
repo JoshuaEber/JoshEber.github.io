@@ -119,6 +119,23 @@ img{
 .about-titles{
 	text-align: center;
 }
+.pic-text{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .5);
+	color: #38ab57;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	font-family: monospace, Arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.frame{
+	position: relative;
+	max-width: 450px;
+	margin: 2% auto;
+}
 @media screen and(min-width: 630px), print {
 
 h1{
