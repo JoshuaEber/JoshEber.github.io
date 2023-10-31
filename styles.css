@@ -112,8 +112,8 @@ img{
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-gap: 10px;
-	margin: 2%;
-	padding: 4%;
+	margin: 1%;
+	padding: 1%;
 	box-shadow: 5px 5px 12px #38ab57;
 }
 .about-titles{
