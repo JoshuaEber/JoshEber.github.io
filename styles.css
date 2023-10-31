@@ -124,7 +124,7 @@ img{
 	bottom: 0;
 	background-color: rgba(0, 0, 0, .5);
 	color: #38ab57;
-	width: 100%;
+	max-width: 100%;
 	padding: 20px;
 	text-align: center;
 	font-family: monospace, Arial, sans-serif;
