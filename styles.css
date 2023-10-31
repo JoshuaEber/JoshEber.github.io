@@ -15,7 +15,7 @@ header{
 	text-align: center;
 	color:  #38ab57;
 	font-family: monospace, Arial, sand serif;
-	border: 2px ridge black;
+	border: 2px ridge #38ab57;
 	border-width: 10px;
 	background-color: #262222;
 	border-radius: 5px;
@@ -39,7 +39,7 @@ nav ul{
 nav li{
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border: 2px ridge black;
+	border: 2px ridge #38ab57;
 	border-width: 5px;
 	background-color: #262222;
 	display: inline-block;
