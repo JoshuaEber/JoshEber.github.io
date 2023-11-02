@@ -139,16 +139,18 @@ img{
 @media screen and(min-width: 630px), print {
 
 h1{
-	font-size:	30px;
+	font-size: 30px;
 }
-
-
+nav li{
+	font-size: 1em;
 }
 /*desktop format*/
 @media screen and (min-width: 1015px), print{
-	h1{
-		font-size: 60px
-	}
-
+h1{
+	font-size: 60px
+}
+nav li{
+	font-size: 1em;
+}
 
 }
