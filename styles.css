@@ -152,6 +152,7 @@ caption{
 th, td{
         border: 1px solid #000;
         padding: 2%;
+	font-size: 1.5em;
     }
 th a, td a{
 	text-decoration: none;
@@ -159,6 +160,9 @@ th a, td a{
 	font-family: monospace, Arial, sans serif;
 	font-style: oblique;
 	font-size: 1.25em;
+}
+th a:hover, td a:hover{
+	color: #fff;
 }
 @media screen and(min-width: 630px), print {
 
