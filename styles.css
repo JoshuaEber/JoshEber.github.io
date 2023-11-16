@@ -214,6 +214,10 @@ select{
   background-color: #1c1b1b;
   color: #38ab57;
 }
+textarea{
+  background-color: #1c1b1b;
+  color: #38ab57;
+}
 @media screen and(min-width: 630px), print {
 
 h1{
