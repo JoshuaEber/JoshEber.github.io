@@ -210,23 +210,10 @@ option{
   background-color: #1c1b1b;
   color: #38ab57;
 }
-option[value=friend] {
+select{
   background-color: #1c1b1b;
   color: #38ab57;
 }
-option[value=google] {
-  background-color: #1c1b1b;
-  color: #38ab57;
-}
-option[value=social] {
-  background-color: #1c1b1b;
-  color: #38ab57;
-}
-option[value=other] {
-  background-color: #1c1b1b;
-  color: #38ab57;
-}
-
 @media screen and(min-width: 630px), print {
 
 h1{
