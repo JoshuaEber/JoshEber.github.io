@@ -189,11 +189,24 @@ form #submit{
     border: none;
     display: block;
     padding: 2%;
-    background-color: #b3b3b3;
+    background-color: #1c1b1b;
     font-size: 1em;
     border-radius: 10px;
+    color: #38ab57
 }
 input[type=text] {
+  background-color: #1c1b1b;
+  color: #38ab57;
+}
+input[type=email] {
+  background-color: #1c1b1b;
+  color: #38ab57;
+}
+input[type=tel] {
+  background-color: #1c1b1b;
+  color: #38ab57;
+}
+option{
   background-color: #1c1b1b;
   color: #38ab57;
 }
