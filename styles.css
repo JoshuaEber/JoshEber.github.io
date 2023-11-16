@@ -193,6 +193,10 @@ form #submit{
     font-size: 1em;
     border-radius: 10px;
 }
+input[type=text] {
+  background-color: #1c1b1b;
+  color: #38ab57;
+}
 @media screen and(min-width: 630px), print {
 
 h1{
