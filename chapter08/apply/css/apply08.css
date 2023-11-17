@@ -31,6 +31,7 @@ table{
 	width: 80%;
 	margin: 0 auto;
 	border: 3px solid #71881b;
+	border-collapse: collapse;
 }
 tr, th, td{
 	border-collapse: collapse;
@@ -48,6 +49,6 @@ th, td{
 td{
 	text-align: center;
 }
-tr{
+tr:nth-child(odd){
 	background-color: #d3e788;
 }
