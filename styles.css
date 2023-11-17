@@ -33,7 +33,7 @@ nav{
 nav ul{
 	
 	list-style-type: none;
-	margin: 0;
+/*change*/margin: 0 auto;
 	text-align: center;
 }
 nav li{
@@ -48,6 +48,7 @@ nav li{
 	font-weight: bold;
 	box-shadow: 4px 4px 4px #000;
 	border-radius: 10px;
+/*change*/ margin: 0 auto;
 }
 nav li a{
 	display: block;
