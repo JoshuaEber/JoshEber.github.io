@@ -14,6 +14,7 @@
 </head>
 <body>
 
+	
 	<div id="container">
 
 		<!-- Use the header area for the website name or logo -->
@@ -34,7 +35,14 @@
 		
 		<!-- Use the main area to add the main content of the webpage -->
 		<main>
-		
+			<video controls poster="images/hero-image.jpg">
+			<source src="media/ffc_video.mp4" type="video/mp4">
+			<source src="media/ffc_video.webm" type="video/webm">
+			<track src="media/captions.vtt" kind="captions" srclang="en" label="Captions">
+			<track src="media/descriptions.vtt" kind="descriptions" srclang="en" label="English Descriptions">
+			<p>Your browser does not support the video element.</p>
+			
+			</video>
 			<section id="weights">
 			
 				<h1>Weights</h1>
@@ -74,7 +82,7 @@
 				
 			</section>
 			
-			<section id="exercises" class=”tablet-desktop”>
+			<section id="exercises" class="tablet-desktop">
 			
 				<h1>Common Exercises</h1>
 <p>The following are common exercises that we encourage our clients to do as part of their daily exercise routine.</p>
