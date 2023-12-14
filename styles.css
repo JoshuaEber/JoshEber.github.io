@@ -78,6 +78,10 @@ img{
 	border-radius: 5px;
 	box-shadow: 5px 5px 10px black;
 }
+.vidformat{
+	width: 100%;
+	height: 400px;
+}
 #project ul{
 	list-style-type: none;
 	margin: 0;
