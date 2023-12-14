@@ -164,7 +164,9 @@ th a:hover, td a:hover{
 	color: #fff;
 }
 .favoriteFormat{
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 #form{
     margin-top: 2%;
