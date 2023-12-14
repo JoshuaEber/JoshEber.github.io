@@ -163,6 +163,9 @@ th a, td a{
 th a:hover, td a:hover{
 	color: #fff;
 }
+.favoriteFormat{
+	margin: 0 auto;
+}
 #form{
     margin-top: 2%;
     background-color: #262222;
@@ -184,7 +187,7 @@ label{
     padding-top: 3%;
 }
 form #submit{
-    margin: a auto;
+    margin: 0 auto;
     border: none;
     display: block;
     padding: 2%;
@@ -217,6 +220,7 @@ textarea{
   background-color: #1c1b1b;
   color: #38ab57;
 }
+
 @media screen and(min-width: 630px), print {
 
 h1{
