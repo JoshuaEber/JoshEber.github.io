@@ -232,8 +232,8 @@ textarea{
 .menu-icon{
     display: block;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 3;
+    top: 3;
 }
 
 @media screen and(min-width: 630px), print {
