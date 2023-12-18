@@ -246,5 +246,8 @@ h1{
 nav li{
 	font-size: 1em;
 }
+.menu-icon{
+	display: none;
+}
 
 }
