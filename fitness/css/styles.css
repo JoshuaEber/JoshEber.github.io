@@ -453,6 +453,9 @@ figcaption{
     }
     
     /* Desktop Viewport: Style Rules for main content */
+    .tablet-desktop{
+        display: block;
+    }
     main {
         clear: left;
     }
