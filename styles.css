@@ -229,6 +229,12 @@ textarea{
   background-color: #1c1b1b;
   color: #38ab57;
 }
+.menu-icon{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
 @media screen and(min-width: 630px), print {
 
