@@ -145,7 +145,8 @@ video{
 table{
         border: 1px solid #38ab57;
         border-collapse: collapse;
-        margin: 0 auto;
+        margin-top: 0;
+	margin-left: 200;
         width: 100%;
 
     }
